@@ -1,9 +1,11 @@
 <!doctype html>
 <html>
 <body onload="onLoad()">
+   <p>Hello</p>
    <audio id="audioComp" src="ThunderClap4HvyC SDT2042602.mp3" preload="auto"> 
    <script>
     function onload() {
+      alert("Hello World");
       var sample = document.getElementById("audioComp");
       sample.play();  
     }
